@@ -3,7 +3,6 @@ var mongoose = require('mongoose');
 
 //var dbURI = 'mongodb://localhost/test';
 
-//var dbURI = 'mongodb://root:root@ds159330.mlab.com:59330/yorbit201_nodejs';
 var dbURI = 'mongodb://amitupadhyaydbproject:amitupadhyay@ds163705.mlab.com:63705/myemployeeamit'
 
 
