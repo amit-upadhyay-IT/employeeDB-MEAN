@@ -5,8 +5,6 @@ var mongojs = require('mongojs');
 
 var db = mongojs('mongodb://amitupadhyaydbproject:amitupadhyay@ds163705.mlab.com:63705/myemployeeamit', ['emp']);
 
-//var db = mongojs('mongodb://root:root@ds159330.mlab.com:59330/yorbit201_nodejs', ['emp']);
-
 var mongoose = require('mongoose');
 var EmployeeDB = mongoose.model('EmployeeDB', EmployeeDB, 'emp');
 
